@@ -12,14 +12,14 @@
 
 #### The output arrays were created using this code:
 
-##### Dim tickerVolumes(tickersCount) As Long
-##### Dim tickerStartingPrices(tickersCount) As Single
-##### Dim tickerEndingPrices(tickersCount) As Single
+#####         Dim tickerVolumes(tickersCount) As Long
+#####         Dim tickerStartingPrices(tickersCount) As Single
+#####         Dim tickerEndingPrices(tickersCount) As Single
 
 #### The ticker index was created with this code:
 
-#####     Dim tickerIndex As Integer
-#####     tickerIndex = 0
+#####         Dim tickerIndex As Integer
+#####         tickerIndex = 0
 
 ##### ![VBA_Challenge_2017.png](/ResourcesFinal/VBA_Challenge_2017.png)
 
