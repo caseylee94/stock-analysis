@@ -10,3 +10,8 @@
 
 ### 
 ![VBA_Challenge_2017.png](/ResourcesFinal/VBA_Challenge_2017.png)
+
+### This is the time it took for the refactored code to run. 
+
+###
+![VBA_Challenge_2018.png](/ResourcesFinal/VBA_Challenge_2018.png)
