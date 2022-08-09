@@ -21,7 +21,7 @@
 #####     Dim tickerIndex As Integer
 #####     tickerIndex = 0
 
-#### ![VBA_Challenge_2017.png](/ResourcesFinal/VBA_Challenge_2017.png)
+##### ![VBA_Challenge_2017.png](/ResourcesFinal/VBA_Challenge_2017.png)
 
 ### This is the time it took for the refactored code to run for the year 2017; the original code took 1.3398 seconds to run. 
 
