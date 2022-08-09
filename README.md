@@ -8,10 +8,22 @@
 
 ### I refactored the code to run more efficiently by creating additional variables, output arrays, and formatting them into the code to allow for only one 'for loop' to need to run to analyze the results. An additional 'for loop' was then created to output the data from the arrays. The original code, while achieving the same results, did not output the results as quickly. These additional variables and arrays allow the code to have somewhere to store data and use the variables to run analysis, which becomes particularly important when analyzing larger sets of data. The original code and the refactored code output the same results, and using the VBA timer function we can see the difference in time it takes for each code to run. 
 
-### 
-![VBA_Challenge_2017.png](/ResourcesFinal/VBA_Challenge_2017.png)
+### Code and Timer Images
 
-### This is the time it took for the refactored code to run. 
+#### The output arrays were created using this code:
+
+##### Dim tickerVolumes(tickersCount) As Long
+##### Dim tickerStartingPrices(tickersCount) As Single
+##### Dim tickerEndingPrices(tickersCount) As Single
+
+#### The ticker index was created with this code:
+
+#####     Dim tickerIndex As Integer
+#####     tickerIndex = 0
+
+#### ![VBA_Challenge_2017.png](/ResourcesFinal/VBA_Challenge_2017.png)
+
+### This is the time it took for the refactored code to run for the year 2017; the original code took 1.3398 seconds to run. 
 
 ###
 ![VBA_Challenge_2018.png](/ResourcesFinal/VBA_Challenge_2018.png)
