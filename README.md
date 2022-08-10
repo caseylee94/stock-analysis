@@ -43,4 +43,7 @@
 
 #### While refactoring has clear advantages there are also disadvantages. Refactoring can be risky, especially when dealing with big applications and can introduce bugs and cause more problems rather than fixing them. If the developer does not fully understand the code refactoring should not be attempted. From a business stand point, refactoring is risky if the deadline is approaching or if the budget does not allow for it. Refactoring should not be done if there is not enough time to test the refactored code before release.
 
-### 
+### Advantages and Disadvantages of this VBA Refactoring
+
+#### The advantages of this particular refactoring are the quicker and more efficient run time due to cleaner code. This allows for larger data sets to be analyzed using this code. The code uses only one 'for loop' for the main analysis while the original code used nested 'for loops'; using only one main 'for loop' and storing data in the variables and arrays allows the code to run efficiently. The original code worked and produced the same results, so if the client did not want to use this code for larger sets of data there would have been no point to refactor it; it was running and would have been a waste of time for the software developer. 
+
