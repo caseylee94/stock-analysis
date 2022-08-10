@@ -21,9 +21,14 @@
 #####         Dim tickerIndex As Integer
 #####         tickerIndex = 0
 
-##### ![VBA_Challenge_2017.png](/ResourcesFinal/VBA_Challenge_2017.png)
+### The first image below shows the time it took the refactored code to run for the year 2017:
 
-### This is the time it took for the refactored code to run for the year 2017; the original code took 1.3398 seconds to run. 
+#### ![VBA_Challenge_2017.png](/ResourcesFinal/VBA_Challenge_2017.png)
 
-###
-![VBA_Challenge_2018.png](/ResourcesFinal/VBA_Challenge_2018.png)
+### The original code took 1.3398 seconds to run. While a seeminlgy small change, even saving fractions of a second makes a big difference when running code especially when dealing with large data sets.
+
+### The next image below shows the time it took the refactored code to run for the year 2018:
+
+#### ![VBA_Challenge_2018.png](/ResourcesFinal/VBA_Challenge_2018.png)
+
+### The original code took 1.3633 seconds to run. Again, this is a significant improvement and will run much more efficiently for large data sets. 
